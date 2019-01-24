@@ -1,3 +1,5 @@
+###Output Example: https://imgur.com/a/42iK5SE
+
 import pandas as pd
 
 #pull in Data
@@ -95,4 +97,3 @@ Outcome['Deff_Adj_From_Initial'] = (Outcome['YdsA'] - Outcome['YdsA_Initial']).r
 
 #Drop irrelevent columns
 Outcome = Outcome.drop(['Ratio_Defense','Ratio_Offense'], axis = 1)
-
